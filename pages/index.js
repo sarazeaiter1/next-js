@@ -1,14 +1,9 @@
-import Link from "next/link";
+import Layout from "../components/MyLayout";
 
 const Home = () => (
-  <div className="container">
-    <Link href="/about">
-      <a title="About Page">About Page</a>
-    </Link>
-    <div>
-      <p>Hello Next.js</p>
-    </div>
-  </div>
+  <Layout>
+    <p>Hello Next.js</p>
+  </Layout>
 );
 
 export default Home;
